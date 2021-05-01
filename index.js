@@ -23,7 +23,7 @@ const colorSwitch = {
     if (this.isActive) {
       return;
     }
-    
+    this.isActive = true;
     this.intervalId = setInterval(() => {
       
       bodyRef.style.backgroundColor =
